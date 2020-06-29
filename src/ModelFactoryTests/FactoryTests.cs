@@ -33,7 +33,6 @@ namespace ModelFactoryTests
       // Act
       var model = ModelFactory<Command>.Create(CommandFactory.BasicBuildOne);
 
-
       // Assert
       Assert.NotNull(model);
       Assert.Equal("Do Something", model.HowTo);
@@ -45,7 +44,6 @@ namespace ModelFactoryTests
       // Arrange
       // Act
       var models = ModelFactory<Command>.Create(2, CommandFactory.BasicBuildOne);
-
 
       // Assert
       Assert.NotNull(models);
