@@ -1,7 +1,7 @@
 # ModelFactory
 Easy way to create Models for use in Test Suites
 
-Targeted to .Net Standard 2.0
+Targeted to .Net Core 3.1
 
 ## Installation
 

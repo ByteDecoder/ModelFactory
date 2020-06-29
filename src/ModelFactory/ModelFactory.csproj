@@ -1,15 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ByteDecoder</RootNamespace>
+
     <Authors>ByteDecoder</Authors>
     <Company />
     <Title>ModelFactory</Title>
     <Description>Easy way to create Models for use in Test Suites</Description>
     <copyright>Copyright (c) 2020 released under the MIT license</copyright>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/ByteDecoder/ModelFactory</RepositoryUrl>
     <RepositoryType>MIT</RepositoryType>
-    <PackageTags>csharp dotnetstandard</PackageTags>
+    <PackageTags>csharp netcoreapp3.1</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.1.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

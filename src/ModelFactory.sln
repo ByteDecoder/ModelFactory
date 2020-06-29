@@ -1,18 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFactory", "ModelFactory\ModelFactory.csproj", "{FA7977A1-9C0D-4732-91DC-B98601735841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFactoryTests", "ModelFactoryTests\ModelFactoryTests.csproj", "{F2B98B17-79AB-4915-8EA6-2A4604F61159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7977A1-9C0D-4732-91DC-B98601735841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7977A1-9C0D-4732-91DC-B98601735841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7977A1-9C0D-4732-91DC-B98601735841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7977A1-9C0D-4732-91DC-B98601735841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B98B17-79AB-4915-8EA6-2A4604F61159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B98B17-79AB-4915-8EA6-2A4604F61159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B98B17-79AB-4915-8EA6-2A4604F61159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B98B17-79AB-4915-8EA6-2A4604F61159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F56E23-1B75-4FDA-8B7D-A8A34DC28F42}
 	EndGlobalSection
 EndGlobal
