@@ -1,3 +1,5 @@
+![.NET Core](https://github.com/ByteDecoder/ModelFactory/workflows/.NET%20Core/badge.svg?branch=master)
+
 # ModelFactory
 
 Easy way to create Models for use in Test Suites
