@@ -43,7 +43,7 @@ namespace ModelFactoryTests
     {
       // Arrange
       // Act
-      var models = ModelFactory<Command>.Create(2, CommandFactory.BasicBuildOne);
+      var models = ModelFactory<Command>.Create(CommandFactory.BasicBuildOne, 2);
 
       // Assert
       Assert.NotNull(models);
