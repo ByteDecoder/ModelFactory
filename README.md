@@ -24,9 +24,7 @@ dotnet add package ByteDecoder.ModelFactory
 
 ## Examples and usage
 
-An easy way to define data for models is creating in your test project, internal static classes that define custom data for your models, 
-and then create instances of these model data templates for testing, minimizing code duplication, and maximizing extensibility and 
-maintainability via the **ModelFactory**. Also takes the advantage of *method group* provided by C#.
+An easy way to define data for models is to create in your test project, internal static classes that define custom data for your models, and then create instances of these model data templates for testing, minimizing code duplication, and maximizing extensibility and maintainability via the **ModelFactory**. It also takes the advantage of *method group* provided by C#.
 
 You can create a single instance or a collection of a given type **T**
 
