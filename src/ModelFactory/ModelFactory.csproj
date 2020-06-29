@@ -6,7 +6,9 @@
 
     <Authors>ByteDecoder</Authors>
     <Company />
-    <Title>ModelFactory</Title>
+    <PackageId>ByteDecoder.ModelFactory</PackageId>
+    <Title>ByteDecoder.ModelFactory</Title>
+
     <Description>Easy way to create Models for use in Test Suites</Description>
     <copyright>Copyright (c) 2020 released under the MIT license</copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
