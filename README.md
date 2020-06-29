@@ -50,7 +50,7 @@ internal static class CommandFactory
   }
 }
 
-// Now, creating models with the FactoryModel
+// Now, creating model instances with ModelFactory
 
 [Fact]
 public void Create_ShouldCreateModel_WhenMethodIsProvided()
