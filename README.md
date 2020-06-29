@@ -8,18 +8,18 @@ Targeted to .Net Core 3.1
 
 ## Installation
 
-Install the [ModelFactory NuGet Package](https://www.nuget.org/packages/ModelFactory).
+Install the [ModelFactory NuGet Package](https://www.nuget.org/packages/ByteDecoder.ModelFactory).
 
 ### Package Manager Console
 
 ```
-Install-Package ModelFactory
+Install-Package ByteDecoder.ModelFactory
 ```
 
 ### .NET Core CLI
 
 ```
-dotnet add package ModelFactory
+dotnet add package ByteDecoder.ModelFactory
 ```
 
 ## Examples and usage
