@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>ByteDecoder</RootNamespace>
+    <RootNamespace>ByteDecoder.ModelFactory</RootNamespace>
 
     <Authors>ByteDecoder</Authors>
     <Company />

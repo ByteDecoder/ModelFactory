@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Bytedecoder
+namespace ByteDecoder.ModelFactory
 {
   /// <summary>
-  /// Allow the creation of models of tyep T based on Action delegates
+  /// Allow the creation of models of type T based on Action delegates
   /// </summary>
   public class ModelFactory<T> where T : class, new()
   {
