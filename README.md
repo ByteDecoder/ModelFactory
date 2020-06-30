@@ -25,13 +25,13 @@ dotnet add package ByteDecoder.ModelFactory
 
 ## Examples and usage
 
-An easy way to define data for models is creating in your test project, internal static classes that define custom data for
-your models, and then create instances of these model data templates for testing, minimizing code duplication, extensibility and 
-maintainability via the ModelFactory. Also takes the advantage of *method group provided* by C#.
+An easy way to define data for models is to create in your test project, internal static classes that define custom data for your models, and then create instances of these model data templates for testing, minimizing code duplication, and maximizing extensibility and maintainability via the **ModelFactory**. It also takes the advantage of *method group* provided by C#.
 
 You can create a single instance or a collection of a given type **T**
 
 ```csharp
+
+// Model Example
 
 public class Command
 {
@@ -41,6 +41,7 @@ public class Command
   public string CommandLine { get; set; }
 }
 
+// Data Template example method
 internal static class CommandFactory
 {
   internal static void BasicBuildOne(Command cmd)
@@ -70,7 +71,7 @@ public void Create_ShouldCreateCollection_WhenMethodIsProvided()
 {
   // Arrange
   // Act
-  var models = ModelFactory<Command>.Create(2, CommandFactory.BasicBuildOne);
+  var models = ModelFactory<Command>.Create(CommandFactory.BasicBuildOne, 2);
 
   // Assert
   Assert.NotNull(models);

@@ -23,10 +23,10 @@ namespace ByteDecoder.ModelFactory
     /// <summary>
     /// Creates a sequence of models of type T defined by the modelBuilder 
     /// </summary>
-    /// <param name="size">Number of elements in the output sequence</param>
     /// <param name="modelBuilder">Delegate that pass type T allowing the build of model properties</param>
+    /// <param name="size">Number of elements in the output sequence</param>
     /// <returns></returns>
-    public static IEnumerable<T> Create(int size, Action<T> modelBuilder)
+    public static IEnumerable<T> Create(Action<T> modelBuilder, int size)
     {
       var sequence = new T[size];
 
