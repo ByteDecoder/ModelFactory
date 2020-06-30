@@ -1,4 +1,5 @@
 ![.NET Core](https://github.com/ByteDecoder/ModelFactory/workflows/.NET%20Core/badge.svg?branch=master)
+[![Build Status](https://dev.azure.com/rodrycode/ModelFactory/_apis/build/status/ByteDecoder.ModelFactory?branchName=master)](https://dev.azure.com/rodrycode/ModelFactory/_build/latest?definitionId=3&branchName=master)
 
 # ModelFactory
 
