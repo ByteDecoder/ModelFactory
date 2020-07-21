@@ -1,8 +1,9 @@
+# ModelFactory
+
 ![.NET Core](https://github.com/ByteDecoder/ModelFactory/workflows/.NET%20Core/badge.svg?branch=master)
 [![Build Status](https://dev.azure.com/rodrycode/ModelFactory/_apis/build/status/ByteDecoder.ModelFactory?branchName=master)](https://dev.azure.com/rodrycode/ModelFactory/_build/latest?definitionId=3&branchName=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c0bf3eb5758773ba87d3/maintainability)](https://codeclimate.com/github/ByteDecoder/ModelFactory/maintainability)
-
-# ModelFactory
+[![Test Coverage](https://api.codeclimate.com/v1/badges/c0bf3eb5758773ba87d3/test_coverage)](https://codeclimate.com/github/ByteDecoder/ModelFactory/test_coverage)
 
 Easy way to create Models for use in Test Suites
 
@@ -14,13 +15,13 @@ Install the [ModelFactory NuGet Package](https://www.nuget.org/packages/ByteDeco
 
 ### Package Manager Console
 
-```
+```powershell
 Install-Package ByteDecoder.ModelFactory
 ```
 
 ### .NET Core CLI
 
-```
+```bash
 dotnet add package ByteDecoder.ModelFactory
 ```
 
@@ -92,7 +93,6 @@ var model = ModelFactory<Command>.Create(m =>
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ByteDecoder/ModelFactory.
-
+Bug reports and pull requests are welcome on GitHub at <https://github.com/ByteDecoder/ModelFactory>.
 
 Copyright (c) 2020 [Rodrigo Reyes](https://twitter.com/bytedecoder) released under the MIT license
