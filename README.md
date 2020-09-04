@@ -4,6 +4,7 @@
 [![Build Status](https://dev.azure.com/rodrycode/ModelFactory/_apis/build/status/ByteDecoder.ModelFactory?branchName=master)](https://dev.azure.com/rodrycode/ModelFactory/_build/latest?definitionId=3&branchName=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c0bf3eb5758773ba87d3/maintainability)](https://codeclimate.com/github/ByteDecoder/ModelFactory/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c0bf3eb5758773ba87d3/test_coverage)](https://codeclimate.com/github/ByteDecoder/ModelFactory/test_coverage)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Easy way to create Models for use in Test Suites
 
